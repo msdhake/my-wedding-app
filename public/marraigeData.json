@@ -1,0 +1,136 @@
+{
+    "main": {
+        "bride" : {
+            "name" : "Mansi",
+            "nickname" : "Minal",
+            "fatherName" : "Dilip Kolhe",
+            "MotherName" : "Leena Kolhe",
+            "brotherName" : "Kunal Kolhe"
+        },
+        "groom" : {
+            "name" : "Manoj",
+            "nickname" : "Mohanish",
+            "fatherName" : "Suresh Dhake",
+            "MotherName" : "Sharada Dhake",
+            "brotherName" : "Hitesh Dhake",
+            "sisterInLawName" : "Kranti Dhake",
+            "daughter" : ["Gargi","Teju", "Revati"]
+        },
+        "background" : {
+            "brideback" : {
+                "title" : "brideback",
+                "image" : "brideback.jpg",
+                "url" : "#" 
+            }
+                
+        },
+        "inviteMsg" : "Like Our Sea of Love...... that flows As precious as the ocean's treasure, too strong for anyone to measure. We invite to share in ceremony of love and share in our joy and excitement."
+    },
+
+    "commanImages" : {
+        "vImages" : {
+              "title": "vivaha",
+              "image": "vivahalogo.png",
+              "url": "#"
+            },
+            "sindoorImage" : {
+                "title": "sindoor",
+                "image": "sindoor.png",
+                "url": "#"
+            }, 
+            "handShake" : {
+                "title" : "promises",
+                "image" : "handShake.png",
+                "url" : "#"
+            },
+            "timeInfo" : {
+                "wdate" : "21th May 2022",
+                "hDate" : "20th May 2022",
+                "title" : ["Don't miss it!!!","Don't forgot to come!!!"]
+            } 
+    },
+    "dateAndTime" : {
+        "weddingDate" : "May 21, 2022 12:35:00",
+        "HaldiDate" : "May 20, 2022 16:35:00"
+    },
+    "rimages" : {
+        "groom1" : {
+            "title" : "Manoj",
+            "image" : "manoj_1.jpg",
+            "url" : "#" 
+        },
+        "bride1" : {
+            "title" : "Mansi",
+            "image" : "mansi_1.jpg",
+            ",url" : "#" 
+        }
+    },
+    "ceremonyDetails" : [{ 
+        "title" : "WEDDING CEREMONY",
+        "weddingDate" : "Saturday, May 21th, 2022",
+        "weddingTime" : "12:35",
+        "lawnName" : "Shri Krushna Lawn",
+        "address" : "Jalgaon, Maharashtra",
+        "imagedetail" : {
+            "title" : "wedding images",
+            "image" : "wedding_ring.jpg",
+            "url" : "#" 
+        }
+
+    }, {
+        "title" : "HALDI CEREMONY",
+        "HaldiDate" : "Friday, May 20th, 2022",
+        "HaldiTime" : "16:00 onwards",
+        "lawnName" : "Shri Krushna Lawn",
+        "address" : "Jalgaon, Maharashtra",
+        "imagedetail" : {
+            "title" : "haldi images",
+            "image" : "hadli_image.jpg",
+            "url" : "#" 
+        }
+    }],
+    "social": [
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/",
+          "className": "fab fa-facebook-square share"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/home",
+          "className": "fab fa-twitter-square share"
+        },
+        {
+          "name": "instagram",
+          "url": "http://instagram.com/dhakemanoj",
+          "className": "fab fa-instagram-square share"
+        },
+        {
+            "name": "whatapp",
+            "url": "https://wa.me/918097725329",
+            "className": "fab fa-whatsapp-square"
+          }
+      ],
+      "specialInviation" : {
+          "name" : ["Gargi", "Revati", "Teju"],
+          "quotes" : "Quotes to Invite",
+          "images" : [
+              {
+                "title" : "gargi",
+                "image" : "gargi.jpg",
+                "url" : "#" 
+              },
+              {
+                "title" : "revati",
+                "image" : "gargi.jpg",
+                "url" : "#" 
+              },
+              {
+                "title" : "teju",
+                "image" : "gargi.jpg",
+                "url" : "#" 
+              }
+          ]
+      }
+  }
+  
