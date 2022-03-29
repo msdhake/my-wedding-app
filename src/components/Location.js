@@ -1,8 +1,17 @@
 import React from 'react';
 import CeremonyDetails from './subcomponents/CeremonyDetails'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Location = ( { data = [] } ) => {
+
+
+	let location = data.map( (element, index) => {
+        if(index % 2 === 0) {
+            return <CeremonyDetails className="w-detail right" data = { element }/>
+        } else {
+            return <CeremonyDetails className="w-detail left" data = { element }/>
+        }
+    })
 
     return ( <section className="section w-details-area center-text">
 		<div className="container">
@@ -16,28 +25,7 @@ const Location = ( { data = [] } ) => {
 					</div>
 					
 					<div className="wedding-details margin-bottom">
-						
-						<div className="w-detail right">
-							{data.length > 0 ? ( <CeremonyDetails data = { data[0] } />) : null }
-							
-						</div> 
-						
-						<div className="w-detail right">
-							<i className="fa fa-cutlery" style={{fontSize: "48px" , color: "red"}}></i>
-							<h4 className="title">DINNER</h4>
-							<p>Time: 12:40 PM Onwards</p>
-						</div> 
-						
-						<div className="w-detail left">
-							{data.length > 1 ? ( <CeremonyDetails data = { data[1] } />) : null }
-						</div> 
-						
-						<div className="w-detail left">
-							<i className="fa fa-cutlery" style={{fontSize: "48px" , color: "red"}}></i>
-							<h4 className="title">DINNER</h4>
-							<p>Time: 7 PM Onwards</p>
-						</div> 
-						
+						{location}
 					</div>
 					
 				</div>

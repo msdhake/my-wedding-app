@@ -38,7 +38,7 @@ function App() {
       <Details data = {marriageResponse.pujaDetails}/>
       <Contact />
       <SpecialInvitation data = {marriageResponse.specialInviation}/>
-      <Footer data = {marriageResponse.social}/>
+      <Footer data = {marriageResponse.social} footer={marriageResponse.footer}/>
     </div>
   );
 }

@@ -1,13 +1,12 @@
 import React from 'react';
 
 
-const Footer = ( { data = [] }) => {
+const Footer = ( { data = [], footer = {} }) => {
 
 	let networks = data.map( (element) => {
         return <li key={element.name}>
                    <a target="_blank" rel="noreferrer noopener" href={element.url}>
-                          <i className={element.className}>
-                          </i>
+                       <img className="social-icon" src={`images/${element.image}`} alt={element.name}/> 
                     </a>
                 </li>
     })
@@ -18,6 +17,10 @@ const Footer = ( { data = [] }) => {
 			   <ul className="social-icons">
 			        { networks }
 			   </ul>
+               <div className="copyright">
+                   <div>&copy;  {footer.copyRight}  </div>
+                   <div>{footer.designBy}  <a title="Styleshout" href="">  {footer.link}   </a></div>
+               </div>
 		    </div>
 	    </footer>
         );

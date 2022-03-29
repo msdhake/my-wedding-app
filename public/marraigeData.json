@@ -82,21 +82,34 @@
         "weddingTime" : "12:35",
         "lawnName" : "Shri Krushna Lawn",
         "address" : "Jalgaon, Maharashtra",
+        "mealtype" : "LUNCH",
+        "meal" : "Time: 12:40 PM Onwards",
         "imagedetail" : {
             "title" : "wedding images",
             "image" : "wedding_ring.jpg",
             "url" : "#" 
+        },
+        "dinner" : {
+            "title" : "dinner",
+            "image" : "meal.png",
+            "url" : "#" 
         }
-
     }, {
         "title" : "HALDI CEREMONY",
         "HaldiDate" : "Friday, May 20th, 2022",
         "HaldiTime" : "16:00 onwards",
         "lawnName" : "Shri Krushna Lawn",
         "address" : "Jalgaon, Maharashtra",
+        "mealtype" : "DINNER",
+        "meal" : "Time: 4:00 PM Onwards",
         "imagedetail" : {
             "title" : "haldi images",
-            "image" : "hadli_image.jpg",
+            "image" : "hadli_image.png",
+            "url" : "#" 
+        },
+        "dinner" : {
+            "title" : "dinner",
+            "image" : "meal.png",
             "url" : "#" 
         }
     }],
@@ -104,22 +117,26 @@
         {
           "name": "facebook",
           "url": "https://www.facebook.com/",
-          "className": "fab fa-facebook-square share"
+          "className": "fab fa-facebook-square share",
+          "image" : "facebook.png"
         },
         {
           "name": "twitter",
           "url": "https://twitter.com/home",
-          "className": "fab fa-twitter-square share"
+          "className": "fab fa-twitter-square share",
+          "image" : "twitter.png"
         },
         {
           "name": "instagram",
           "url": "http://instagram.com/dhakemanoj",
-          "className": "fab fa-instagram-square share"
+          "className": "fab fa-instagram-square share",
+          "image" : "instagram.png"
         },
         {
             "name": "whatapp",
             "url": "https://wa.me/918097725329",
-            "className": "fab fa-whatsapp-square"
+            "className": "fab fa-whatsapp-square",
+            "image" : "whatapp.png"
           }
       ],
       "specialInviation" : {
@@ -133,12 +150,12 @@
               },
               {
                 "title" : "revati",
-                "image" : "gargi.png",
+                "image" : "revati.png",
                 "url" : "#" 
               },
               {
                 "title" : "teju",
-                "image" : "gargi.png",
+                "image" : "teju.png",
                 "url" : "#" 
               }
           ]
@@ -161,6 +178,11 @@
             "url" : "#",
             "subject" : ".................................3.........................."
         }
-    ]
+    ],
+    "footer" : {
+        "copyRight" : "  Copyright 2022 Manoj Suresh Dhake ",
+        "designBy" : " Design by ",
+        "link" : "msdian.com"
+    }
   }
   

@@ -9363,4 +9363,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .detail-blessing {
   width: 50px !important;
 }
+
+.social-icon {
+  height: 25px;
+  width: 25px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
