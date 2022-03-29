@@ -748,14 +748,19 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
-  /* position: relative; */
-  /* margin-left: auto;
-  margin-right: auto;*/
+.container-header {
   padding-right: 15px;
   padding-left: 15px;  
   height: 100%; 
   width:100%; 
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media (min-width: 576px) {

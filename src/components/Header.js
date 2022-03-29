@@ -4,7 +4,7 @@ const Header = ( { data  = { vImages : {}, kalika : {},  samarth : {} } }  ) => 
 	const { vImages, kalika, samarth } = data;
 	return (
 			<header>
-				<div className="container">
+				<div className="container-header">
 					<div className="left">
 					    <div>
 						   <a className="logo" href={vImages.url}>
