@@ -13,8 +13,9 @@ const Wedding = ( { images = { sindoorImage : {} , timeInfo : {} , handShake : {
                 <div className="display-table-cell">
                     <div className="slider-content">
                         <img className="sindur-dan" src={`images/${sindoorImage.image}`} alt="Sindur Dan"/>
-                        <h5 className="date">{ timeInfo.wdate }</h5>
-                        <h3 className="pre-title">{ timeInfo.title }
+                        <div className='animate__animated animate__flipInX animate__infinite'>
+                            <h5 className="date">{ timeInfo.wdate }</h5>
+                        </div>
                         <h3 className="pre-title">
                         { timeInfo.title === undefined || timeInfo.title.length === 0? null : 
                                <ReactTyped
@@ -26,11 +27,11 @@ const Wedding = ( { images = { sindoorImage : {} , timeInfo : {} , handShake : {
                                   smartBackspace
                                 /> }
                         </h3>
-                        </h3>
-                        <h1 className="title">{groom.name}   
-                        <img className="sindur-dan" src={`images/${handShake.image}`} alt="Sindur Dan"/> 
-                        {bride.name}</h1>
-
+                        <div className='animate__animated animate__rubberBand animate__infinite'>
+                             <h1 className="title">{groom.name}   
+                             <img className="sindur-dan" src={`images/${handShake.image}`} alt="Sindur Dan"/> 
+                             {bride.name}</h1>
+                        </div>
                     </div>
 			</div>
 		</div>

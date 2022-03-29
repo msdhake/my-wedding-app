@@ -2,14 +2,14 @@
     "main": {
         "bride" : {
             "name" : "Mansi",
-            "nickname" : "Minal",
+            "nickname" : "Minu",
             "fatherName" : "Dilip Kolhe",
             "MotherName" : "Leena Kolhe",
             "brotherName" : "Kunal Kolhe"
         },
         "groom" : {
-            "name" : "Manoj",
-            "nickname" : "Mohanish",
+            "name" : "Mohanish",
+            "nickname" : "Manu",
             "fatherName" : "Suresh Dhake",
             "MotherName" : "Sharada Dhake",
             "brotherName" : "Hitesh Dhake",
@@ -56,12 +56,12 @@
     "rimages" : {
         "groom1" : {
             "title" : "Manoj",
-            "image" : "manoj_1.jpg",
+            "image" : "manoj_1.png",
             "url" : "#" 
         },
         "bride1" : {
             "title" : "Mansi",
-            "image" : "mansi_1.jpg",
+            "image" : "mansi_1.png",
             ",url" : "#" 
         }
     },
@@ -113,21 +113,21 @@
       ],
       "specialInviation" : {
           "name" : ["Gargi", "Revati", "Teju"],
-          "quotes" : "Quotes to Invite",
+          "quotes" : "\"amcha kaka cha lagna la ya...\"",
           "images" : [
               {
                 "title" : "gargi",
-                "image" : "gargi.jpg",
+                "image" : "gargi.png",
                 "url" : "#" 
               },
               {
                 "title" : "revati",
-                "image" : "gargi.jpg",
+                "image" : "gargi.png",
                 "url" : "#" 
               },
               {
                 "title" : "teju",
-                "image" : "gargi.jpg",
+                "image" : "gargi.png",
                 "url" : "#" 
               }
           ]
