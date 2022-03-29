@@ -35,7 +35,7 @@ function App() {
       <DaysToGo data = { marriageResponse.dateAndTime}/>
       <Invitation  images = { marriageResponse.rimages} data = {marriageResponse.main} />
       <Location data = {marriageResponse.ceremonyDetails}/>
-      <Details />
+      <Details data = {marriageResponse.pujaDetails}/>
       <Contact />
       <SpecialInvitation data = {marriageResponse.specialInviation}/>
       <Footer data = {marriageResponse.social}/>

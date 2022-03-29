@@ -26,7 +26,7 @@ const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : 
                                      backgroundRepeat: "no-repeat"}}  alt="groom" className="img-responsive" />
                                 </div>
                                 <div className="desc-groom">
-                                    <h3>{ groom.name }</h3>
+                                    <h3>{ groom.nickname }</h3>
                                     <h5>S/O { groom.fatherName }</h5>
                                     <h5>{ groom.MotherName }</h5>
                                 </div>
@@ -41,7 +41,7 @@ const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : 
                                     <img src = {`images/togather/${bride1.image}`}  alt="bride" className="img-responsive" />
                                 </div>
                                 <div className="desc-bride">
-                                    <h3>{bride.name}</h3>
+                                    <h3>{bride.nickname}</h3>
                                     <h5>D/O {bride.fatherName}</h5>
                                     <h5>{bride.MotherName}</h5>
                                 </div>

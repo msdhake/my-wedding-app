@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import RemainingDays from './subcomponents/RemainingDays';
 
-const DaysToGo = ({ data = {} }) => {
+const DaysToGo = ({ data = { } }) => {
     
-    const { weddingDate } = data;
+    const { weddingDate, title } = data;
     const [isExpired, setIsExpired] = useState(false);
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
@@ -57,8 +57,10 @@ const DaysToGo = ({ data = {} }) => {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="heading">
-                            <h2 className="title">Don't miss it!</h2>
-                            <span className="heading-bottom"><i className="color-white icon icon-star"></i></span>
+                            <div className='animate__animated animate__flipInY animate__infinite'>
+                                <h2 className="title">{ title }</h2>
+                            </div>
+                            <span className="heading-bottom"><i className="fas fa-star-of-life"></i></span>
                         </div>
                     </div>
 

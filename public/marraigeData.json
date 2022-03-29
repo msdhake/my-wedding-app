@@ -2,14 +2,14 @@
     "main": {
         "bride" : {
             "name" : "Mansi",
-            "nickname" : "Minu",
+            "nickname" : "Mansi/Minal",
             "fatherName" : "Dilip Kolhe",
             "MotherName" : "Leena Kolhe",
             "brotherName" : "Kunal Kolhe"
         },
         "groom" : {
             "name" : "Mohanish",
-            "nickname" : "Manu",
+            "nickname" : "Mohanish/Manoj",
             "fatherName" : "Suresh Dhake",
             "MotherName" : "Sharada Dhake",
             "brotherName" : "Hitesh Dhake",
@@ -61,7 +61,8 @@
     },
     "dateAndTime" : {
         "weddingDate" : "May 21, 2022 12:35:00",
-        "HaldiDate" : "May 20, 2022 16:35:00"
+        "HaldiDate" : "May 20, 2022 16:35:00",
+        "title" : "Don't miss it..."
     },
     "rimages" : {
         "groom1" : {
@@ -141,6 +142,25 @@
                 "url" : "#" 
               }
           ]
-      }
+      },
+      "pujaDetails" : [ {
+            "title" : "puja name",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : ".................................1.........................."
+        },
+        {
+            "title" : "puja name",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : ".................................2.........................."
+        },
+        {
+            "title" : "puja name",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : ".................................3.........................."
+        }
+    ]
   }
   

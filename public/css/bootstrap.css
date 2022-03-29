@@ -9359,4 +9359,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   width: 25%; 
   text-align: center;
 }
+
+.detail-blessing {
+  width: 50px !important;
+}
 /*# sourceMappingURL=bootstrap.css.map */
