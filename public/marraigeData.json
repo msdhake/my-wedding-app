@@ -28,8 +28,18 @@
     },
 
     "commanImages" : {
+        "kalika" : {
+            "title": "!!!श्री निमजय माता: प्रसन्न!!!",
+            "image": "kalika.png",
+            "url": "#"
+          },
+        "samarth" : {
+            "title": "!!!श्री स्वामी समर्थ प्रसन्न!!!",
+            "image": "samarth.png",
+            "url": "#"
+          },
         "vImages" : {
-              "title": "vivaha",
+              "title": "!!!शुभ विवाह!!!",
               "image": "vivahalogo.png",
               "url": "#"
             },

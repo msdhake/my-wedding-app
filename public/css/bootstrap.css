@@ -749,11 +749,13 @@ pre code {
 }
 
 .container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  /* position: relative; */
+  /* margin-left: auto;
+  margin-right: auto;*/
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 15px;  
+  height: 100%; 
+  width:100%; 
 }
 
 @media (min-width: 576px) {
@@ -9328,5 +9330,28 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important;
   }
+}
+
+.left, .middle, .right {
+  display: inline-block; 
+  *display: inline; 
+  zoom: 1; 
+  vertical-align: top; 
+  font-size: 12px;
+}
+
+.left {
+  width: 25%; 
+  text-align: center;
+}
+
+.middle {
+  width: 50%; 
+  text-align: center;
+}
+
+.right {
+  width: 25%; 
+  text-align: center;
 }
 /*# sourceMappingURL=bootstrap.css.map */

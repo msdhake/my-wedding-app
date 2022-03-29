@@ -12,9 +12,11 @@ const Wedding = ( { images = { sindoorImage : {} , timeInfo : {} , handShake : {
             <div className="display-table center-text">
                 <div className="display-table-cell">
                     <div className="slider-content">
-                        <img className="sindur-dan" src={`images/${sindoorImage.image}`} alt="Sindur Dan"/>
-                        <div className='animate__animated animate__flipInX animate__infinite'>
-                            <h5 className="date">{ timeInfo.wdate }</h5>
+                        <div>
+                             <img className="sindur-dan" src={`images/${sindoorImage.image}`} alt="Sindur Dan"/>
+                             <div className='animate__animated animate__flipInX animate__infinite'>
+                                 <h5 className="date">{ timeInfo.wdate }</h5>
+                             </div>
                         </div>
                         <h3 className="pre-title">
                         { timeInfo.title === undefined || timeInfo.title.length === 0? null : 
