@@ -22,7 +22,7 @@ const DaysToGo = ({ data = { } }) => {
             const hour = Math.floor((remaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minute = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
             const second = Math.floor((remaining % (1000 * 60)) / 1000);
-            
+
             if (days !== day) {
                 setDays(day);
             }
@@ -43,7 +43,7 @@ const DaysToGo = ({ data = { } }) => {
                 clearInterval(remainingDays);
                 setIsExpired(true);
             }
-        }, 3000);
+        }, 1000);
 
         return () => {
             clearInterval(remainingDays);

@@ -19,7 +19,7 @@ const Footer = ( { data = [], footer = {} }) => {
 			   </ul>
                <div className="copyright">
                    <div>&copy;  {footer.copyRight}  </div>
-                   <div>{footer.designBy}  <a title="Styleshout" href="">  {footer.link}   </a></div>
+                   <div>{footer.designBy}  <a title="Styleshout" target="_blank" href="https://my-portfolio-2d747.firebaseapp.com/">  {footer.link}   </a></div>
                </div>
 		    </div>
 	    </footer>

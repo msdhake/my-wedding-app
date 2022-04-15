@@ -1,12 +1,21 @@
-import React from 'react';
-// import groom from '../images/manoj1.png';
-// import bride from '../images/mana2.jpg';
-// import brideback from '../images/brideback.jpg';
-const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : {} , groom : {}, brideback : {} } }) => {
+import React, { useState } from 'react';
+import ReactTyped from 'react-typed'
+// import Player from './Player'
+import Music from './Player';
+import song from "../static/Kalaavathi.mp3";
+
+// import OurStory from './subcomponents/OurStory';
+
+const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : {} , groom : {}, brideback : {}, sanskritSlokas : [], ourStories : [] } }) => {
 
     const { groom1, bride1 } = images;
-    const { brideback, bride, groom, inviteMsg } = data;
+    const { brideback, bride, groom, inviteMsg, sanskritSlokas, ourStories } = data;
+    const [showStory, setShowStory] = useState(false);
+    const [playing, toggle] = Music(song);
 
+    const renderOutStory = () => {
+        setShowStory(!showStory);
+    }
     return (
         <section className="section w-details-area center-text">
             <div className="container">
@@ -15,6 +24,17 @@ const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : 
                     <div className="col-sm-10">
                         <div className="heading">
                             <h2>Hey!!!</h2>
+                            <div className='sanskrit-sloka'>
+                            { sanskritSlokas === undefined || sanskritSlokas.length === 0? null : 
+                                   <ReactTyped
+                                      strings={sanskritSlokas}
+                                      typeSpeed={80}
+                                      backSpeed={80}
+                                      backDelay={1}
+                                      loop
+                                      smartBackspace
+                                    /> }
+                            </div>
                             <p>{inviteMsg}</p>
                             <span className="heading-bottom"><i className='fas fa-star-of-life' style={{color: "red"}}></i></span>
                         </div>
@@ -31,10 +51,10 @@ const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : 
                                     <h5>{ groom.MotherName }</h5>
                                 </div>
                             </div>
-                            <p className="center-text heartp">
-                                <svg className="heart" viewBox="0 0 32 29.6">
+                            <p className="center-text heartp" >
+                                <svg className="heart" viewBox="0 0 32 29.6"  onClick={toggle}>
                                     <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
-                                </svg>
+                                </svg> 
                             </p>
                             <div className="couple-half">
                                 <div className="bride">

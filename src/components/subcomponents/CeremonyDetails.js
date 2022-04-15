@@ -7,9 +7,11 @@ const CeremonyDetails = ( {data = [], className } ) => {
     return (
      <>
         <div className={className}>
-            <img className="sindur-dan" src={`images/${imageDetail.image}`} href={imageDetail.url} />
+            <div className='animate__animated animate__pulse animate__infinite'>
+                <img className="sindur-dan" src={`images/${imageDetail.image}`} href={imageDetail.url} />
+            </div>
 			<h4 className="title">{data.title}</h4>
-            <p> { data.weddingDate } </p>
+            <p> { data.date } </p>
 			<p> {data.lawnName} </p>
             <p><i className="fa fa-map-marker" style={{fontSize: "48px" , color: "red"}}></i></p>
             <p>{data.address}</p>
@@ -21,7 +23,9 @@ const CeremonyDetails = ( {data = [], className } ) => {
             <br/><br/>
         </div>    
         <div className={className}>
-			<img className="sindur-dan" src={`images/${dinner.image}`} alt={dinner.name}/> 
+            <div className='animate__animated animate__flash animate__infinite'>
+            <img className="sindur-dan" src={`images/${dinner.image}`} alt={dinner.name}/> 
+            </div>
 			<h4 className="title">{ data.mealtype }</h4>
 			<p>{ data.meal }</p>
 		</div> 

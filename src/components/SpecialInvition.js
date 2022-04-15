@@ -7,7 +7,9 @@ const SpecialInvitation = ( {data = { name : [], images : []} } ) => {
     let kiddoInvite = images.map( (element) => {
 
         return <div key={element.name} className="circular_image">
-                    <img src = {`images/${element.image}`}  alt={element.title} className="circular_image" />  
+                    <div className='animate__animated animate__zoomIn animate__infinite'>
+                        <img src = {`images/${element.image}`}  alt={element.title} className="circular_image" />  
+                    </div>
                 </div>
     })
 

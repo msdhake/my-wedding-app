@@ -24,7 +24,29 @@
             }
                 
         },
-        "inviteMsg" : "Like Our Sea of Love...... that flows As precious as the ocean's treasure, too strong for anyone to measure. We invite to share in ceremony of love and share in our joy and excitement."
+        "sanskritSlokas" : ["सखा सप्तपदा भव ।", "सखायौ सप्तपदा बभूव ।", "सख्यं ते गमेयम् ।", "सख्यात् ते मायोषम् ।", "सख्यान्मे मयोष्ठाः ।",""],
+        "inviteMsg" : "Like Our Sea of Love...... that flows As precious as the ocean's treasure, too strong for anyone to measure. We invite to share in ceremony of love and share in our joy and excitement.",
+        "ourStories" : [ {
+               "storyImage" : {
+                "title": "image story1",
+                "image": "samarth.png",
+                "url": "#"
+              },
+              "storyTitle" : "this is story title",
+              "storyDate" : "date of story",
+              "storyContent" : " this ism story content........."
+            },
+            {
+                "storyImage" : {
+                 "title": "image story1",
+                 "image": "samarth.png",
+                 "url": "#"
+               },
+               "storyTitle" : "this is story title",
+               "storyDate" : "date of story",
+               "storyContent" : " this ism story content........."
+             }
+        ]
     },
 
     "commanImages" : {
@@ -78,8 +100,8 @@
     },
     "ceremonyDetails" : [{ 
         "title" : "WEDDING CEREMONY",
-        "weddingDate" : "Saturday, May 21th, 2022",
-        "weddingTime" : "12:35",
+        "date" : "Saturday, May 21th, 2022",
+        "time" : "12:35",
         "lawnName" : "Shri Krushna Lawn",
         "address" : "Jalgaon, Maharashtra",
         "mealtype" : "LUNCH",
@@ -96,8 +118,8 @@
         }
     }, {
         "title" : "HALDI CEREMONY",
-        "HaldiDate" : "Friday, May 20th, 2022",
-        "HaldiTime" : "16:00 onwards",
+        "date" : "Friday, May 20th, 2022",
+        "time" : "16:00 onwards",
         "lawnName" : "Shri Krushna Lawn",
         "address" : "Jalgaon, Maharashtra",
         "mealtype" : "DINNER",
@@ -116,13 +138,13 @@
     "social": [
         {
           "name": "facebook",
-          "url": "https://www.facebook.com/",
+          "url": "https://www.facebook.com/manoj.dhake.98/",
           "className": "fab fa-facebook-square share",
           "image" : "facebook.png"
         },
         {
           "name": "twitter",
-          "url": "https://twitter.com/home",
+          "url": "https://twitter.com/manoj35679988",
           "className": "fab fa-twitter-square share",
           "image" : "twitter.png"
         },
@@ -183,6 +205,9 @@
         "copyRight" : "  Copyright 2022 Manoj Suresh Dhake ",
         "designBy" : " Design by ",
         "link" : "msdian.com"
+    }, 
+    "songs" : {
+        "song" : "Kalavathi.mp3"
     }
   }
   
