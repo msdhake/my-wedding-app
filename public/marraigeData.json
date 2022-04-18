@@ -2,14 +2,14 @@
     "main": {
         "bride" : {
             "name" : "Mansi",
-            "nickname" : "Mansi/Minal",
+            "nickname" : "Minal",
             "fatherName" : "Dilip Kolhe",
             "MotherName" : "Leena Kolhe",
             "brotherName" : "Kunal Kolhe"
         },
         "groom" : {
             "name" : "Mohanish",
-            "nickname" : "Mohanish/Manoj",
+            "nickname" : "Manoj",
             "fatherName" : "Suresh Dhake",
             "MotherName" : "Sharada Dhake",
             "brotherName" : "Hitesh Dhake",

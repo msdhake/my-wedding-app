@@ -474,8 +474,8 @@ footer .copyright{ padding: 20px 0 30px; }
     width: 100%;
   }
 
-  .heart {
-    display: none;
+  .heartp {
+    position: static;
   }
 
   .couple-half {
