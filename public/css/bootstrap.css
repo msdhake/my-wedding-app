@@ -9578,3 +9578,55 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     right: auto;
   }
 }
+
+#patrika .button {
+  font: 16px/30px 'opensans-bold', sans-serif;
+   background: #292b2c;
+   display: inline-block;
+	text-decoration: none;
+   letter-spacing: 0;
+   color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+   border: none;
+   cursor: pointer;
+   height: auto;
+
+   -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   border-radius: 3px;
+}
+
+#patrika a, #patrika a:visited  { color: #fff; }
+#patrika a:hover, #patrika a:focus { color: #11ABB0; }
+
+#patrika h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#patrika p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+
+#patrika .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+
+#patrika .download .button:hover {
+  background: #5bd9de;
+  color: #2B2B2B;
+}
+#patrika .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}

@@ -9,7 +9,7 @@ import song from "../static/Kalaavathi.mp3";
 const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : {} , groom : {}, brideback : {}, sanskritSlokas : [], ourStories : [] } }) => {
 
     const { groom1, bride1 } = images;
-    const { brideback, bride, groom, inviteMsg, sanskritSlokas, ourStories } = data;
+    const { brideback, bride, groom, inviteMsg, sanskritSlokas, lagnaPatrika } = data;
     const [showStory, setShowStory] = useState(false);
     const [playing, toggle] = Music(song);
 
@@ -36,6 +36,13 @@ const Invitation = ( { images = { groom1 : {} , bride1 : {} }, data = { bride : 
                                     /> }
                             </div>
                             <p>{inviteMsg}</p>
+                            <div id = "patrika">
+                                <div className="columns download">
+                                     <p>
+                                       <a href={`pdf/${lagnaPatrika}`} className="button" target="_blank" rel="noreferrer noopener"><i className="fa fa-download"></i>Wedding Invitation</a>
+                                     </p>
+                                </div>
+                            </div>
                             <span className="heading-bottom"><i className='fas fa-star-of-life' style={{color: "red"}}></i></span>
                         </div>
 

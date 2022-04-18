@@ -46,7 +46,8 @@
                "storyDate" : "date of story",
                "storyContent" : " this ism story content........."
              }
-        ]
+        ],
+        "lagnaPatrika" : "MANOJ_LAGNA_PATRIKA.pdf"
     },
 
     "commanImages" : {
@@ -82,8 +83,8 @@
             } 
     },
     "dateAndTime" : {
-        "weddingDate" : "May 21, 2022 12:35:00",
-        "HaldiDate" : "May 20, 2022 16:35:00",
+        "weddingDate" : "May 21, 2022 12:23:00",
+        "HaldiDate" : "May 20, 2022 16:00:00",
         "title" : "Don't miss it..."
     },
     "rimages" : {
@@ -101,7 +102,7 @@
     "ceremonyDetails" : [{ 
         "title" : "WEDDING CEREMONY",
         "date" : "Saturday, May 21th, 2022",
-        "time" : "12:35",
+        "time" : "12:23",
         "lawnName" : "Shri Krushna Lawn",
         "address" : "Jalgaon, Maharashtra",
         "mealtype" : "LUNCH",
@@ -183,22 +184,46 @@
           ]
       },
       "pujaDetails" : [ {
-            "title" : "puja name",
+            "title" : "Sakharpuda (साखरपुडा)",
             "image" : "blessed.png",
             "url" : "#",
-            "subject" : ".................................1.........................."
+            "subject" : "it is engagement or declaration of marriage. Often a simple ceremony with some prayers, distributing sweets and ring ceremony."
         },
         {
-            "title" : "puja name",
+            "title" : "Haladi (हळद लावणे)",
             "image" : "blessed.png",
             "url" : "#",
-            "subject" : ".................................2.........................."
+            "subject" : "Married women carry out this ritual on the day of the actual ceremony. Before having their bath the women grind grains in a vessel. Turmeric paste is then applied all over the bridegroom's body using mango leaves. Then some of this applied paste is taken and passed to the bride's side."
         },
         {
-            "title" : "puja name",
+            "title" : "Mangalashtake (मंगलाष्टके)",
             "image" : "blessed.png",
             "url" : "#",
-            "subject" : ".................................3.........................."
+            "subject" : "At the auspicious time or the muhurta ghatika, bride and groom are made to stand in front of each other with a white cloth with a Swastika drawn using Kumkum (antarpaat) in between. The Guruji recites the mangalashtak. At the end of Mangalashtak bride and groom exchange garlands and all the people bless the couple by putting coloured rice grains(Akshata) on the head of bride and groom while saying Shubha Mangala Savadhan."
+        },
+        {
+            "title" : "Saptapadi (सप्तपदी)",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : "The bride takes seven symbolic steps while pushing a betel nut along the floor with her left foot while the groom assists her. They reiterate the aspirations of their married life as each step signifies a specific promise that the couple make to each other."
+        },
+        {
+            "title" : "Mangalsutra (मंगळसूत्र)",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : "The groom ties the Mangal sutra to the bride. Also the groom applies kumkum on bride's forehead."
+        },
+        {
+            "title" : "Lakshmi poojan (लक्ष्मी पूजन)",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : "Both bride and groom do the Lakshmi poojan. A new name is given to the bride by the groom. And this is the end of the rituals."
+        },
+        {
+            "title" : "Maap olandane (माप ओलांडणे)",
+            "image" : "blessed.png",
+            "url" : "#",
+            "subject" : "The newlywed couple is welcomed to the groom’s family. The mother of the groom performs Aarti and washes the couple’s feet with milk and water. The bride is then asked to push down a Kalash of rice at the entrance and they both enter the house putting their right foot forward."
         }
     ],
     "footer" : {
